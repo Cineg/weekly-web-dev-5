@@ -531,7 +531,7 @@ footer img{
     height: 57px;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 740px){
     .wrapper{
         width: 100vw;
     }
@@ -566,8 +566,8 @@ footer img{
         width: 100%;
     }
 
-    .info-rightSide img{
-        width: 90vw;
+    .info-rightSide{
+        width: 50%;
         margin-left: 10vw;
     }
 
@@ -667,5 +667,152 @@ footer img{
         width: 90vw;
     }
 
+}
 
+@media screen and (min-width: 740px) and (max-width: 1400px){
+    body{
+        overflow-x: hidden;
+    }
+    .wrapper{
+        width: 100vw;
+    }
+
+    header{
+        height: inherit;
+    }
+    header nav{
+        height: 100px;
+    }
+    header nav img{
+        width: 30vw;
+    }
+    header nav ul{
+        width: 70vw;
+        margin: 0;
+        padding-bottom: 15px;
+    }
+
+    header .info{
+        height: inherit;
+    }
+
+    header .info-leftSide{
+        margin: 0;
+        margin-top: 50px;
+        padding-left: 10vw;
+        width: 100%;
+    }
+
+    .info-rightSide{
+        padding-right: 10vw;
+    }
+    .info-rightSide img{
+        width: 150%;
+    }
+
+    .section-services{
+        width: 100vw;
+        height: inherit;
+    }
+    .icons-row p{
+        width: 80%;
+    }
+
+    .icons-row article{
+        margin: 0;
+        margin-bottom: 70px;
+    }
+
+    .section-work{
+        text-align: center;
+    }
+
+    .section-portfolio{
+        height: inherit;
+    }
+    .section-portfolio article{
+        width: 100vw;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .section-portfolio article .img-row{
+        margin: 0;
+        width: 100vw;
+        justify-content: center;
+    }
+
+    .section-portfolio aside{
+        width: 80vw;
+        text-align: center;
+    }
+
+    .section-portfolio article .img-row .portfolioImage{
+        align-items: center;
+        width: 30%;
+        margin-bottom: 10px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .section-portfolio article .img-row .portfolioImage p{
+        width: 90%;
+    }
+
+    .section-portfolio .client{
+        flex-direction: column;
+        width: 95vw;
+        align-items: center;
+    }
+    .section-portfolio .client .img{
+        margin: 0;
+    }
+
+    .section-portfolio .client .quote{
+        margin-top: 30px;
+        width: 80vw;
+    }
+
+    .selectors{
+        margin-bottom: 30px;
+    }
+    
+    .section-getInTouch {
+        width: 100vw;
+        text-align: center;
+    }
+    .section-getInTouch h2{
+        width: 90vw;
+    }
+
+    .section-contact{
+        height: inherit;
+        padding-bottom: 20px;
+    }
+    .section-contact .row{
+        flex-direction: column;
+    }
+
+    .section-contact .contact-info{
+        width: 100vw;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .section-contact .row{
+        width: 100vw;
+    }
+    .section-contact form{
+        margin-left: 5vw;
+        width: 95vw;
+    }
+    .section-contact .row form .row input{
+        width: 90vw;
+        margin-bottom: 5px;
+    }
+    .section-contact .row form textarea{
+        width: 90vw;
+    }
+
+        
 }
